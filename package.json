@@ -1,0 +1,25 @@
+{
+  "name": "files1",
+  "version": "1.0.0",
+  "main": "proxy.js",
+  "scripts": {
+    "dev": "nodemon proxy.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/64blit/files1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/64blit/files1/issues"
+  },
+  "homepage": "https://github.com/64blit/files1#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2",
+    "http-proxy-middleware": "^3.0.3",
+    "morgan": "^1.10.0"
+  }
+}
